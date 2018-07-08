@@ -17,7 +17,7 @@ namespace AutocompleteAspNetMvc.Models
         public string CEP { get; set; }
 
         [Required]
-        [RegularExpression("(AC|AL|AP|AM|BA|CE|DF|ES|GO|MA|MT|MS|MG|PA|PB|PR|PE|PI|RJ|RN|RS|RO|RR|SC|SP|SE|TO)", ErrorMessage = "Preencha o estado de residência.")]
+        [RegularExpression("(AC|AL|AP|AM|BA|CE|DF|ES|GO|MA|MT|MS|MG|PA|PB|PR|PE|PI|RJ|RN|RS|RO|RR|SC|SP|SE|TO)", ErrorMessage = "Informe um estado válido.")]
         public string UF { get; set; }
 
         [Required]
